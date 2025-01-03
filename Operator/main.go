@@ -15,11 +15,11 @@ func main() {
 	// not expression
 	fmt.Println(!false)
 	fmt.Println(!true)
-	//
+	// and expression
 	fmt.Println(true && true)
 	fmt.Println(true && false)
 	fmt.Println(false && false)
-
+	// or expression
 	fmt.Println(true || true)
 	fmt.Println(true || false)
 	fmt.Println(false || false)
